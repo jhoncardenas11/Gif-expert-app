@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente gifgrid Debe de mostrar items cuando se cargan imagenes con useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    Cowboy bebop
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Cualquier cosa"
+      url="https://localhost/cualquiercosa.jpg"
+    />
+    <GifGridItem
+      id="ABD"
+      key="ABD"
+      title="Cualquier cosa 2"
+      url="https://localhost/cualquiercosa2.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en el componente gifgrid Debe hacer match con el snapshot 1`] = `
+<Fragment>
+  <h3>
+    Cowboy bebop
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
